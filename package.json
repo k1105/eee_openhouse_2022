@@ -27,7 +27,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "rm": "rm -rf docs",
+    "mv": "mv build docs",
+    "git": "git add . && git commit && git push origin main",
+    "deploy": "yarn run rm && yarn run build && yarn run mv && yarn run git"
   },
   "eslintConfig": {
     "extends": [
@@ -47,5 +50,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://k1105.github.io/eee_hand_pose_detection/"
+  "homepage": "https://k1105.github.io/eee_openhouse_2022/"
 }

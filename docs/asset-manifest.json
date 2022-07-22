@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/eee_openhouse_2022/static/css/main.ba7b0581.css",
+    "main.js": "/eee_openhouse_2022/static/js/main.493b955b.js",
+    "static/js/787.04ff5025.chunk.js": "/eee_openhouse_2022/static/js/787.04ff5025.chunk.js",
+    "index.html": "/eee_openhouse_2022/index.html",
+    "main.ba7b0581.css.map": "/eee_openhouse_2022/static/css/main.ba7b0581.css.map",
+    "main.493b955b.js.map": "/eee_openhouse_2022/static/js/main.493b955b.js.map",
+    "787.04ff5025.chunk.js.map": "/eee_openhouse_2022/static/js/787.04ff5025.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba7b0581.css",
+    "static/js/main.493b955b.js"
+  ]
+}
