@@ -12,6 +12,7 @@ export default function App() {
   const predictionsRef = useRef(null);
   const [ready, setReady] = useState(false);
   const lostCountRef = useRef(0);
+  const timer = 120000;
 
   const capture = useCallback(async () => {
     if (webcamRef.current && modelRef.current) {
@@ -60,6 +61,7 @@ export default function App() {
     load();
 
     setReady(true);
+    setInterval("location.reload()", timer);
   }, []);
 
   useEffect(() => {

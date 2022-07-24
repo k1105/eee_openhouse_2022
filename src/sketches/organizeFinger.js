@@ -31,7 +31,11 @@ export const organizeFinger = (p5, hands) => {
     p5.translate(0, window.innerHeight / 2);
 
     for (let n = 0; n < 5; n++) {
-      start = 4 * n + 1;
+      if (n === 0) {
+        start = 2;
+      } else {
+        start = 4 * n + 1;
+      }
       end = 4 * n + 4;
       p5.push();
       p5.translate((window.innerWidth / 6) * (n + 1), 0);
