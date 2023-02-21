@@ -73,10 +73,10 @@ export const organizeFinger = (p5, hands) => {
       }
 
       p5.push();
-      p5.translate(0, 200);
+      p5.translate(0, 50);
       p5.noStroke();
       p5.textAlign(p5.CENTER);
-      p5.textSize(25);
+      p5.textSize(15);
       p5.text(fingerNames[n], 0, 0);
       p5.pop();
 
